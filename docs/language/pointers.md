@@ -22,7 +22,7 @@ The [Varptr] operator allows you to find the address of a variable, yielding a p
 ```blitzmax
 Local an_int:Int=10
 Local int_ptr:Int Ptr=Varptr an_int
-Array style indexing is used to dereference pointers:
+'Array style indexing is used to dereference pointers:
 Local an_int:Int=10
 Local int_ptr:Int Ptr=Varptr an_int
 Print int_ptr[0]
