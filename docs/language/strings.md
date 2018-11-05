@@ -35,11 +35,11 @@ Here is an example of using string methods:
 ```blitzmax
 Local t:String="***** HELLO *****"
 
-Print t.length			'return length of string: 17
-Print t.Find( "HE" )		'returns index of substring "HE": 6
-Print t.Replace( "*","!" )	'replaces all "*" with "!"
-Print t.ToLower()		'coverts string to lowercase
-Print ":".Join( ["Hello","World"] )	'returns "Hello:World"
+Print t.length                      'return length of string: 17
+Print t.Find( "HE" )                'returns index of substring "HE": 6
+Print t.Replace( "*","!" )          'replaces all "*" with "!"
+Print t.ToLower()                   'coverts string to lowercase
+Print ":".Join( ["Hello","World"] ) 'returns "Hello:World"
 ```
 
 String also provide the following functions to help with the creation of strings:
