@@ -55,6 +55,15 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               SyntaxBomb Forums
             </a>
+            <a
+              href="https://discord.gg/udSSJkj"
+              target="_blank"
+              rel="noreferrer noopener">
+              <img src="https://user-images.githubusercontent.com/2625226/75874927-076a0680-5e13-11ea-9c63-5de88624df6d.png"
+                   alt="Chat on Discord"
+                   data-canonical-src="https://img.shields.io/discord/613699895139762176.svg?logo=discord&color=DDDDDD&logoColor=555555&style=social" style="max-width:100%;"
+              >
+            </a>
           </div>
           <div>
             <h5>More</h5>
